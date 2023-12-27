@@ -3,7 +3,7 @@
 
 public struct CustomFrameworkSDK {
     
-    public func initSDK(){
+    public static func initSDK(){
         print("Your Custom framework SDK is initiated successfully")
     }
     
