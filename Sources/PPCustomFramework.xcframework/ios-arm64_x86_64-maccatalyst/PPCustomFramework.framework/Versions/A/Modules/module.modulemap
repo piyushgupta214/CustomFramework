@@ -1,0 +1,11 @@
+framework module PPCustomFramework {
+  umbrella header "PPCustomFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module PPCustomFramework.Swift {
+  header "PPCustomFramework-Swift.h"
+  requires objc
+}

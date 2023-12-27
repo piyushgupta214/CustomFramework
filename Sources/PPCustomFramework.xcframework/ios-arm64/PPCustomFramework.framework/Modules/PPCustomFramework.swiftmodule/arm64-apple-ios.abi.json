@@ -1,0 +1,55 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "PPCustomFrameworkSDK",
+        "printedName": "PPCustomFrameworkSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initSDK",
+            "printedName": "initSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PPCustomFramework0aB3SDKV04initC0yyFZ",
+            "mangledName": "$s17PPCustomFramework0aB3SDKV04initC0yyFZ",
+            "moduleName": "PPCustomFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17PPCustomFramework0aB3SDKV",
+        "mangledName": "$s17PPCustomFramework0aB3SDKV",
+        "moduleName": "PPCustomFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/piyush\/Desktop\/workspaces\/Design Patterns\/Swift\/PPCustomFramework\/PPCustomFramework\/PPCustomFramework.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 53,
+      "value": "\"Your Custom framework SDK is initiated successfully\""
+    }
+  ]
+}
